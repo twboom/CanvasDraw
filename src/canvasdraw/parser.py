@@ -16,7 +16,8 @@ SET_OPERATORS = {
 CURSOR_OPERATORS = {
     'M': 'moveTo',
     'L': 'lineTo',
-    'C': 'arc'
+    'C': 'arc',
+    'R': 'rect',
 }
 
 
