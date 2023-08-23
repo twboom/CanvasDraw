@@ -22,6 +22,8 @@ CURSOR_OPERATORS = {
 
 
 def parse_command(command:str) -> str:
+    if command.startswith('//'):
+        return ''
     js = ''
     if command in DIRECT_OPERATORS:
         js = DIRECT_OPERATORS[command]
