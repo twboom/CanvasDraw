@@ -17,6 +17,7 @@ CURSOR_OPERATORS = {
     'M': 'moveTo',
     'L': 'lineTo',
     'C': 'arc',
+    'A': 'arc',
     'R': 'rect',
 }
 
